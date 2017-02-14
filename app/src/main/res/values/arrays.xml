@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="markArray">
+        <item>0-49</item>
+        <item>50-99</item>
+        <item>100-149</item>
+        <item>150-199</item>
+        <item>200-249</item>
+        <item>更高</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:seekbar="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <com.mingming.seekbar.RangeSeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        seekbar:markTextArray="@array/markArray"
+        seekbar:cursorBackground="@drawable/left_cursor_bg"
+        seekbar:spaceBetween="20dp"
+        seekbar:textSize="12dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekbar"
+        android:text="点我啊"/>
+</RelativeLayout>

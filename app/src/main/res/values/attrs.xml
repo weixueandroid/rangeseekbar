@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RangeSeekBar">
+        <attr name="seekbarHeight" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="spaceBetween" format="dimension" />
+
+        <attr name="cursorBackground" format="reference" />
+
+        <attr name="markTextArray" format="reference" />
+
+        <attr name="textColorNormal" format="color" />
+        <attr name="textColorSelected" format="color" />
+        <attr name="seekbarColor" format="color" />
+
+        <attr name="autoMoveDuration" format="integer" />
+    </declare-styleable>
+</resources>
