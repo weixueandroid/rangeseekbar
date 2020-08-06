@@ -7,7 +7,7 @@
     android:padding="10dp">
 
 
-    <com.mingming.seekbar.RangeSeekBar
+    <com.zj.seekbar.RangeSeekBar
         android:id="@+id/seekbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,4 +22,5 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/seekbar"
         android:text="点我啊"/>
+
 </RelativeLayout>
